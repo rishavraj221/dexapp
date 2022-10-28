@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import MenuItem from "@mui/material/MenuItem";
-import Select, { SelectChangeEvent } from "@mui/material/Select";
+import Select from "@mui/material/Select";
 
 import Head from "next/head";
 import Image from "next/image";
