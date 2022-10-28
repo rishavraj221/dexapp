@@ -57,11 +57,9 @@
 }
 
 .mapCont {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   margin: 30px auto 10px;
   position: relative;
+  width: 406px;
 }
 
 .busIcon {

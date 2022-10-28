@@ -159,7 +159,7 @@ export default function Home() {
           className={styles.busIcon}
           style={{
             top: busTab === "bus1" || busTab === "bus3" ? -10 : 500,
-            left: 56,
+            left: 21,
           }}
         >
           <Image
