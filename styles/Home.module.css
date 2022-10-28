@@ -1,129 +1,69 @@
-.container {
-  padding: 0 2rem;
+.headCont {
+  background: #ffffff;
+  box-shadow: 0px 4px 19px rgba(0, 0, 0, 0.07);
+  display: flex;
+  padding: 15px;
 }
 
-.main {
-  min-height: 100vh;
-  padding: 4rem 0;
-  flex: 1;
+.headContS1S1 {
+  font-family: "PoppinsRegular";
+  font-size: 14px;
+  color: #2d2a2a;
+  margin-bottom: 10px;
+}
+
+.headContS1S2 {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
   align-items: center;
 }
 
-.footer {
-  display: flex;
-  flex: 1;
-  padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
-  justify-content: center;
-  align-items: center;
-}
-
-.footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
-}
-
-.title a {
-  color: #0070f3;
-  text-decoration: none;
-}
-
-.title a:hover,
-.title a:focus,
-.title a:active {
-  text-decoration: underline;
-}
-
-.title {
-  margin: 0;
-  line-height: 1.15;
-  font-size: 4rem;
-}
-
-.title,
-.description {
-  text-align: center;
-}
-
-.description {
-  margin: 4rem 0;
-  line-height: 1.5;
-  font-size: 1.5rem;
-}
-
-.code {
-  background: #fafafa;
-  border-radius: 5px;
-  padding: 0.75rem;
-  font-size: 1.1rem;
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace;
-}
-
-.grid {
+.headContS2S2 {
+  background: #e3f5ff;
+  border-radius: 7px;
+  padding: 8px;
+  font-family: "PoppinsSemiBold";
+  font-size: 16px;
+  color: #1796dd;
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap;
-  max-width: 800px;
 }
 
-.card {
-  margin: 1rem;
-  padding: 1.5rem;
-  text-align: left;
-  color: inherit;
-  text-decoration: none;
-  border: 1px solid #eaeaea;
-  border-radius: 10px;
-  transition: color 0.15s ease, border-color 0.15s ease;
-  max-width: 300px;
+.tabCont {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 15px 0;
+  padding: 20px 10px;
 }
 
-.card:hover,
-.card:focus,
-.card:active {
-  color: #0070f3;
-  border-color: #0070f3;
+.tab {
+  font-family: "PoppinsRegular";
+  font-size: 14px;
+  color: #2d2a2a;
+  padding: 8px 10px;
 }
 
-.card h2 {
-  margin: 0 0 1rem 0;
-  font-size: 1.5rem;
+.tabSelected {
+  font-family: "PoppinsRegular";
+  font-size: 14px;
+  color: #2d2a2a;
+  background: #e3f5ff;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 10px;
 }
 
-.card p {
-  margin: 0;
-  font-size: 1.25rem;
-  line-height: 1.5;
+.mapCont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px auto 10px;
+  position: relative;
 }
 
-.logo {
-  height: 1em;
-  margin-left: 0.5rem;
-}
-
-@media (max-width: 600px) {
-  .grid {
-    width: 100%;
-    flex-direction: column;
-  }
-}
-
-@media (prefers-color-scheme: dark) {
-  .card,
-  .footer {
-    border-color: #222;
-  }
-  .code {
-    background: #111;
-  }
-  .logo img {
-    filter: invert(1);
-  }
+.busIcon {
+  position: absolute;
 }
