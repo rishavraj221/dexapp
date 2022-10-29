@@ -64,4 +64,21 @@
 
 .busIcon {
   position: absolute;
+  height: 87px;
+  width: 62px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tempInpCont {
+  width: 400px;
+  margin: 25px auto;
+}
+
+.tempInpContS1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
 }
