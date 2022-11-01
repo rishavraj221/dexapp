@@ -1,84 +1,99 @@
-.headCont {
-  background: #ffffff;
-  box-shadow: 0px 4px 19px rgba(0, 0, 0, 0.07);
-  display: flex;
-  padding: 15px;
+.mainCont {
+  width: 60%;
+  margin: 40px auto;
 }
 
-.headContS1S1 {
-  font-family: "PoppinsRegular";
-  font-size: 14px;
-  color: #2d2a2a;
-  margin-bottom: 10px;
-}
-
-.headContS1S2 {
+.header {
   display: flex;
   align-items: center;
+  margin-bottom: 40px;
+  justify-content: space-between;
 }
 
-.headContS2S2 {
-  background: #e3f5ff;
-  border-radius: 7px;
-  padding: 8px;
-  font-family: "PoppinsSemiBold";
-  font-size: 16px;
-  color: #1796dd;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.headerName {
+  font-family: "HeeboMedium";
+  font-size: 28px;
+  line-height: 41px;
+  color: #363636;
 }
 
-.tabCont {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  margin: 15px 0;
-  padding: 20px 10px;
+.image {
+  border-radius: 50px;
 }
 
-.tab {
-  font-family: "PoppinsRegular";
-  font-size: 14px;
-  color: #2d2a2a;
-  padding: 8px 10px;
-}
-
-.tabSelected {
-  font-family: "PoppinsRegular";
-  font-size: 14px;
-  color: #2d2a2a;
-  background: #e3f5ff;
-  border-radius: 8px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 8px 10px;
-}
-
-.mapCont {
-  margin: 30px auto 10px;
-  position: relative;
-  width: 406px;
-}
-
-.busIcon {
-  position: absolute;
-  height: 87px;
-  width: 62px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.tempInpCont {
-  width: 400px;
-  margin: 25px auto;
-}
-
-.tempInpContS1 {
+.contactListCont {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  width: 50%;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  border-radius: 4px;
+  padding: 8px 16px;
+  margin: 10px 0;
+}
+.contactListCont:hover {
+  cursor: pointer;
+  filter: drop-shadow(0px 3px 3px #d6d6d6);
+}
+
+.contactInnerCont {
+  display: flex;
+  width: 80%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contactTxt {
+  font-family: "HeeboRegular";
+  font-size: 14px;
+  line-height: 21px;
+  color: #555555;
+}
+
+.mH1 {
+  font-family: "HeeboMedium";
+  font-size: 20px;
+  color: #363636;
+  line-height: 29px;
+}
+
+.formField {
+  margin: 20px 0;
+}
+
+.label {
+  font-family: "HeeboRegular";
+  font-size: 14px;
+  line-height: 21px;
+  color: #666666;
   margin-bottom: 8px;
+}
+
+.addImgBtn {
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  border-radius: 4px;
+  padding: 8px 24px;
+  width: 30%;
+  text-align: center;
+  font-family: "HeeboRegular";
+  font-size: 12px;
+  line-height: 18px;
+  color: #363636;
+}
+.addImgBtn:hover {
+  cursor: pointer;
+  filter: drop-shadow(0px 3px 3px #d6d6d6);
+}
+
+.noDataCont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "HeeboRegular";
+  font-size: 16px;
+  line-height: 18px;
+  color: #767676;
 }
