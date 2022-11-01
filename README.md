@@ -14,12 +14,12 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Cloud Resources
 
-Used AWS Amplify for graphql backend apis
+Used firebase to deploy the project. [Click here](https://dexapprishav.web.app/) to see it live.
 
 ## Backend
 
-The backend used is amplify backend environment
+The backend used is amplify backend environment.
 
 ## Database
 
-The database used is dynamoDB NOSQL database
+The database used is dynamoDB NOSQL database.

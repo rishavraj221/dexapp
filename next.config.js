@@ -5,6 +5,10 @@ const nextConfig = {
   output: {
     globalObject: "this",
   },
+  images: {
+    loader: "imgix",
+    path: "https://noop/",
+  },
 };
 
 module.exports = nextConfig;
