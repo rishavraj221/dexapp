@@ -12,9 +12,9 @@ yarn dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## Cloud Deployement
+## Cloud Resources
 
-This project is being deployed in AWS amplify - [Click here](https://main.d3imvr5fbxb2uy.amplifyapp.com/) to see it live
+Used AWS Amplify for graphql backend apis
 
 ## Backend
 
